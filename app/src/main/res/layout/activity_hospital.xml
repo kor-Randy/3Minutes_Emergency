@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal"
+              android:orientation="vertical"
+              android:padding="3dp" >
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:text="Client Id:" />
+
+        <TextView
+                android:id="@+id/tvClientId1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:gravity="center_vertical" />
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:text="Status:" />
+
+        <TextView
+                android:id="@+id/tvStatus1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:gravity="center_vertical"
+                android:text="Disconnected" />
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+        <Button
+                android:id="@+id/btnConnect1"
+                android:layout_gravity="left"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6"
+                android:onClick="connectClick"
+                android:text="Connect" />
+
+        <Button
+                android:id="@+id/btnDisconnect1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:layout_gravity="right"
+                android:onClick="disconnectClick"
+                android:text="Disconnect" />
+    </LinearLayout>
+
+
+    <fragment
+              android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_weight="5"
+              android:id="@+id/map"
+
+              android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+    <Button
+            android:text="Subscribe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/sub"/>
+    <Button
+            android:id="@+id/btnPublish1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="left"
+            android:onClick="publishClick"
+            android:text="출동"/>
+
+</LinearLayout>
