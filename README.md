@@ -12,6 +12,9 @@
 ## WorkFlow
 <img src="/WorkFlow.PNG" />
 
+## 환자가 쓰러졌을 때 Flow
+<img src="/WhenSlip_Flow.PNG"/>
+
 - - -
 
 ## 시연 영상
