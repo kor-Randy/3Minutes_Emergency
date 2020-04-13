@@ -1,5 +1,6 @@
 # 3분 출동
 
+* [자세한 블로그]()
 - - -
 
 ## 프로젝트 목표
@@ -9,7 +10,7 @@
 - - -
 
 ## WorkFlow
-<img src="/WorkFlow.png" />
+<img src="/WorkFlow.PNG" />
 
 ## 시연 영상
 
@@ -20,9 +21,9 @@
 
 
 ## 사용 플랫폼/기술
-* ESP32, GSP 센서, LED, 자이로센서, 충격감지센서, 부저
+* ESP32, GPS 센서, LED, 자이로센서, 충격감지센서, 부저
 * AWS IoT Core, Lambda, SNS
-* Android (Kotlin), HotSpot, BlueTooth
+* Android (Kotlin), BackGround Service Component, HotSpot, BlueTooth
 * KakaoMap (KakaoAPI)
 
 
