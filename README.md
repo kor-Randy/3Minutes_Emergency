@@ -8,6 +8,9 @@
 
 - - -
 
+## WorkFlow
+<img src="/WorkFlow.png" />
+
 ## 시연 영상
 
 ### 전체 시연 영상
